@@ -69,6 +69,9 @@ export default class App extends React.Component {
               />
             );
           })}
+          <TouchableOpacity style={styles.button}>
+            <Text>submit</Text>
+          </TouchableOpacity>
         </View>
       </View>
     );
@@ -105,5 +108,9 @@ const styles = StyleSheet.create({
     width: 150,
     height: 150,
     marginLeft: 95,
+  },
+  button:{
+    backgroundColor:"Blue",
+    width:100,height:100
   }
 });
